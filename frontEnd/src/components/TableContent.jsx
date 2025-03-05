@@ -30,7 +30,8 @@ export default function Table() {
         <table className="w-full rounded-lg overflow-hidden border-white hidden sm:table-caption">
           <thead className="bg-white text-black uppercase text-sm">
             <tr className="text-left">
-              <td className="px-4 py-2 text-left">ID</td>
+              <td className="px-4 py-2 text-left">CarId</td>
+              <td className="px-4 py-2 text-left">UserId</td>
               <td className="px-4 py-2">Placa do Carro</td>
               <td className="px-4 py-2">Marca/Modelo</td>
               <td className="px-4 py-2">Status</td>
@@ -42,6 +43,7 @@ export default function Table() {
               data.map((car) => (
                 <tr key={car.idCarro}>
                   <td className="text-left py-2 px-4">{car.idCarro}</td>
+                  <td className="text-left py-2 px-4">{car.userId}</td>
                   <td className="text-left py-2 px-4">{car.CarLicensePlate}</td>
                   <td className="text-left py-2 px-4">{car.BrandAndModel}</td>
                   <td className="text-left py-2 px-4">{car.StatusCar}</td>

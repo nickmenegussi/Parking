@@ -114,7 +114,7 @@ export default function Carro() {
           </select>
         </div>
         <button onClick={CadastrarCarro} className="block cursor-pointer w-full mt-6 bg-white text-black py-2 rounded-lg font-semibold text-center hover:bg-blue-100">
-          Entrar
+          Cadastrar Carro
         </button>
       </div>
       <Table/>

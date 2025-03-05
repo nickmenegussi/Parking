@@ -92,7 +92,7 @@ export default function ModalUpdateParking({
                 maxLength={7}
                 onChange={(e) => setCarro({...carro, BrandAndModel: e.target.value})}
                 className="w-full border rounded px-3 py-2 mt-1"
-                placeholder="Digite a placa do carro"
+                placeholder="Digite o modelo do carro"
               />
             </div>
             <div className="mt-4 mb-5">
