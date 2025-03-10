@@ -1,6 +1,6 @@
 # Sistema de Cadastro de Carros no Estacionamento
 
-Este projeto é um sistema simples de cadastro de carros em um estacionamento, desenvolvido com Node.js, Express, MySQL, HTML, CSS e JavaScript. A aplicação permite a criação, leitura, atualização e exclusão de registros de carros estacionados.
+Este projeto é um sistema simples de cadastro de carros em um estacionamento, desenvolvido com Node.js, Express, MySQL e React. A aplicação permite a criação, leitura, atualização e exclusão de registros de carros estacionados.
 
 ## Objetivo
 
